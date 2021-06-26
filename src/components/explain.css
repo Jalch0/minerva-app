@@ -1,0 +1,147 @@
+.btnexplain{
+    opacity: 0;
+}
+
+.loadone {
+    display: inline-block;
+    margin: 12%;
+    margin-left:27%;
+    font-size: 40px;
+    z-index: 99;
+    color : #fff;
+    animation: final 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    position: absolute;
+
+}
+
+
+.load1 {
+    color:#fff;
+    font-size: 65px;
+    text-align: center;
+    font-family: LemonMilk;
+
+    animation: inicio 2s;
+}
+
+.load12 {
+    opacity: 0;
+    color: #fff;
+    font-size: 65px;
+    font-family: LemonMilk;
+    animation: inicio 2s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+}
+
+.loadtwo {
+    display: inline-block;
+    position: absolute;
+    font-family: LemonMilk;
+    text-align: center;
+    margin: 16%;
+    margin-left:20%;
+    font-size: 65px;
+    z-index: 99;
+    font-size: 20px;
+    animation: final 2s;
+    animation-delay: 5.8s;
+    animation-fill-mode: forwards;
+}
+
+.load21{
+    opacity: 0;
+    color:#fff;
+    animation: inicio 2s;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+}
+
+.load22 {
+    opacity: 0;
+    color:#fff;
+    animation: inicio 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.loadthree {
+        display: inline-block;
+        position: absolute;
+        font-family: LemonMilk;
+        margin: 15%;
+        margin-left:17%;
+        font-size: 65px;
+        z-index: 99;
+        font-size: 30px;
+        text-align: center;
+        animation: final 3s;
+        animation-delay: 12s;
+        animation-fill-mode: forwards;
+}
+
+.load31 {
+    opacity: 0;
+    color:#fff;
+    animation: inicio 2s;
+    animation-delay: 7.9s;
+    animation-fill-mode: forwards;
+}
+
+.load32 {
+    opacity: 0;
+    color: #fff;
+    animation: inicio 2s;
+    animation-delay: 9.2s;
+    animation-fill-mode: forwards;
+}
+
+.load33 {
+    opacity: 0;
+    color: #fff;
+    animation: inicio 2s;
+    animation-delay: 10.9s;
+    animation-fill-mode: forwards;
+}
+
+.loadfour {
+    display: inline-block;
+    position: absolute;
+    font-family: LemonMilk;
+    margin: 17%;
+    margin-left:37%;
+    z-index: 99;
+    text-align: center;
+}
+
+.load41 {
+    opacity: 0;
+    color: #fff;
+    font-size: 60px;
+    animation: inicio 2s;
+    animation-delay: 14.1s;
+    animation-fill-mode: forwards;
+}
+
+.dissapear1 {
+    display: inline-block;
+    position: absolute;
+    font-family: LemonMilk;
+    margin: 17%;
+    margin-left:37%;
+    z-index: 99;
+    text-align: center;
+    transition: opacity 1.5s ease-in-out;
+     opacity: 0;
+}
+
+@keyframes inicio {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes final {
+    from {  opacity:1; }
+    to   {  opacity:0; }
+}

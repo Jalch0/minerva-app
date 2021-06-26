@@ -1,0 +1,14 @@
+
+body {
+    background: #000;
+}
+
+@font-face {
+    font-family: DeathStar;
+    src: url(./fonts/DeathStar.otf)
+}
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(./fonts/LemonMilk.otf)
+}
